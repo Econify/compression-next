@@ -1,3 +1,5 @@
+> NOTE: Folks have been having conversations about adding brotli compression to expressjs/compression for [over five years](https://github.com/expressjs/compression/issues?q=is%3Aissue+brotli+is%3Aopen). In the spirit of using brotli compression today rather than 5 more years from now, there is this fork. Once [#172](https://github.com/expressjs/compression/pull/172) is merged into expressjs/compression we should all get back to using core.
+
 # compression-next
 
 [![NPM Version][npm-image]][npm-url]
