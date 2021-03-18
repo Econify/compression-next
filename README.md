@@ -30,7 +30,7 @@ $ npm install compression
 <!-- eslint-disable no-unused-vars -->
 
 ```js
-var compression = require('compression')
+var compression = require('compression-next')
 ```
 
 ### compression([options])
@@ -165,7 +165,7 @@ The default `filter` function. This is used to construct a custom filter
 function that is an extension of the default function.
 
 ```js
-var compression = require('compression')
+var compression = require('compression-next')
 var express = require('express')
 
 var app = express()
@@ -195,7 +195,7 @@ When using this module with express or connect, simply `app.use` the module as
 high as you like. Requests that pass through the middleware will be compressed.
 
 ```js
-var compression = require('compression')
+var compression = require('compression-next')
 var express = require('express')
 
 var app = express()
@@ -217,7 +217,7 @@ You can achieve this by calling `res.flush()` when you need the data written to
 actually make it to the client.
 
 ```js
-var compression = require('compression')
+var compression = require('compression-next')
 var express = require('express')
 
 var app = express()
