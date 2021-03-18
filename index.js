@@ -108,7 +108,7 @@ module.exports.filter = shouldCompress
 var cacheControlNoTransformRegExp = /(?:^|,)\s*?no-transform\s*?(?:,|$)/
 
 /**
- * Compress response data with gzip / deflate.
+ * Compress response data with gzip / deflate / brotli.
  *
  * @param {Object} [options]
  * @return {Function} middleware
