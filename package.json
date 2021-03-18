@@ -1,5 +1,5 @@
 {
-  "name": "compression",
+  "name": "compression-next",
   "description": "Node.js compression middleware",
   "version": "1.7.4",
   "contributors": [
@@ -7,7 +7,7 @@
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
   ],
   "license": "MIT",
-  "repository": "expressjs/compression",
+  "repository": "Econify/compression-next",
   "dependencies": {
     "bytes": "3.0.0",
     "compressible": "~2.0.17",
