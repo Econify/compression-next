@@ -1,7 +1,7 @@
 {
   "name": "compression-next",
   "description": "Node.js compression middleware",
-  "version": "1.7.4",
+  "version": "1.0.1",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
@@ -36,7 +36,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 11"
   },
   "scripts": {
     "lint": "eslint --plugin markdown --ext js,md .",
